@@ -4,12 +4,11 @@
     "outDir": "./out-tsc/spec",
     "traceResolution": false,
     "types": [
-      "jasmine",
+      "jest",
       "node"
     ]
   },
   "files": [
-    "src/test.ts"
   ],
   "include": [
     "**/*.spec.ts",

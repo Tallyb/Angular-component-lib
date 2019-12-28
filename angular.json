@@ -20,11 +20,9 @@
           }
         },
         "test": {
-          "builder": "@angular-devkit/build-angular:karma",
+          "builder": "@angular-builders/jest:run",
           "options": {
-            "main": "src/test.ts",
-            "tsConfig": "tsconfig.spec.json",
-            "karmaConfig": "karma.conf.js"
+            "tsConfig": "tsconfig.spec.json"
           }
         },
         "lint": {
@@ -42,5 +40,5 @@
       }
     }
   },
-  "defaultProject": "angular"
+  "defaultProject": "components"
 }

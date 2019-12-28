@@ -1,0 +1,10 @@
+@import '../../styles/colors';
+
+.container {
+    padding: 20px;
+}
+
+button {
+    background: $action;
+    color: $primary-color;
+}
